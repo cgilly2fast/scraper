@@ -1,0 +1,1416 @@
+{
+  "availability": [
+    {
+      "January 2020": [
+        {
+          "day": "6",
+          "type": "checked-in"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "checked-out"
+        },
+        {
+          "day": "11",
+          "type": "checked-in"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "checked-out"
+        },
+        {
+          "day": "19",
+          "type": "checked-in"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "checked-out"
+        },
+        {
+          "day": "26",
+          "type": "checked-in"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        },
+        {
+          "day": "31",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "February 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "March 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "checked-out"
+        },
+        {
+          "day": "8",
+          "type": "checked-in"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "checked-out"
+        },
+        {
+          "day": "29",
+          "type": "checked-in"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        },
+        {
+          "day": "31",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "April 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "checked-out"
+        },
+        {
+          "day": "10",
+          "type": "checked-in"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "May 2020": [
+        {
+          "day": "1",
+          "type": "checked-out"
+        },
+        {
+          "day": "3",
+          "type": "checked-in"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        },
+        {
+          "day": "31",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "June 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "checked-out"
+        },
+        {
+          "day": "19",
+          "type": "checked-in"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "July 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        },
+        {
+          "day": "31",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "August 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        },
+        {
+          "day": "31",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "September 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "October 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        },
+        {
+          "day": "31",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "November 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        }
+      ]
+    },
+    {
+      "December 2020": [
+        {
+          "day": "1",
+          "type": "all-day"
+        },
+        {
+          "day": "2",
+          "type": "all-day"
+        },
+        {
+          "day": "3",
+          "type": "all-day"
+        },
+        {
+          "day": "4",
+          "type": "all-day"
+        },
+        {
+          "day": "5",
+          "type": "all-day"
+        },
+        {
+          "day": "6",
+          "type": "all-day"
+        },
+        {
+          "day": "7",
+          "type": "all-day"
+        },
+        {
+          "day": "8",
+          "type": "all-day"
+        },
+        {
+          "day": "9",
+          "type": "all-day"
+        },
+        {
+          "day": "10",
+          "type": "all-day"
+        },
+        {
+          "day": "11",
+          "type": "all-day"
+        },
+        {
+          "day": "12",
+          "type": "all-day"
+        },
+        {
+          "day": "13",
+          "type": "all-day"
+        },
+        {
+          "day": "14",
+          "type": "all-day"
+        },
+        {
+          "day": "15",
+          "type": "all-day"
+        },
+        {
+          "day": "16",
+          "type": "all-day"
+        },
+        {
+          "day": "17",
+          "type": "all-day"
+        },
+        {
+          "day": "18",
+          "type": "all-day"
+        },
+        {
+          "day": "19",
+          "type": "all-day"
+        },
+        {
+          "day": "20",
+          "type": "all-day"
+        },
+        {
+          "day": "21",
+          "type": "all-day"
+        },
+        {
+          "day": "22",
+          "type": "all-day"
+        },
+        {
+          "day": "23",
+          "type": "all-day"
+        },
+        {
+          "day": "24",
+          "type": "all-day"
+        },
+        {
+          "day": "25",
+          "type": "all-day"
+        },
+        {
+          "day": "26",
+          "type": "all-day"
+        },
+        {
+          "day": "27",
+          "type": "all-day"
+        },
+        {
+          "day": "28",
+          "type": "all-day"
+        },
+        {
+          "day": "29",
+          "type": "all-day"
+        },
+        {
+          "day": "30",
+          "type": "all-day"
+        },
+        {
+          "day": "31",
+          "type": "all-day"
+        }
+      ]
+    }
+  ]
+}
