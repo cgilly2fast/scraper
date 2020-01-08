@@ -1,18 +1,27 @@
 const express = require('express')
 const fs = require('fs')
+const moment = require('moment');
 const app = express()
 const port = 3000
 
 const { google } = require('googleapis');
+const authorize = require('./google-calendar-auth')
 const cheerio = require("cheerio");
 const axios = require("axios");
 const siteUrl = "https://www.hwyoneprop.com/highway-one-vacation-rentals/27-calle-del-pradero";
+const calendarId = '3m4gnh04a9dtb3qs3mdnfne70o@group.calendar.google.com'
 
-const calendar = google.calendar({
-  version: 'v3',
-  auth: 'AIzaSyCwou7ggcvV5T6Aa8F9RYRG6DGD2ICh3io'
-})
-
+// var date = moment('January 2020', 'MMM YYYY').day(8)
+// var event = {
+//   'summary': 'Google I/O 2015',
+//   'description': 'A chance to hear more about Google\'s developer products.',
+//   'start': {
+//     'date': '2020-01-08',
+//   },
+//   'end': {
+//     'date': '2020-01-08',
+//   },
+// };
 
 const availability = [];
 
@@ -41,24 +50,42 @@ app.get('/', (request, response) => {
 
     let jsonString = JSON.stringify({ availability });
 
-    fs.writeFileSync('./output.json', jsonString, 'utf-8');
+    fs.readFile('credentials.json', (err, content) => {
+      if (err) return console.log('Error loading client secret file:', err);
+      authorize(JSON.parse(content), auth => {
+        const calendar = google.calendar({ version: 'v3', auth });
+        availability.forEach(i => {
+          let month = Object.keys(i)[0]
+          i[month].forEach(dayItem => {
+            calendar.events.insert({
+              auth,
+              calendarId,
+              resource: {
+                'summary': dayItem.type,
+                'start': {
+                  'dateTime': moment(month, 'MMM YYYY').day(dayItem.day).toDate(),
+                },
+                'end': {
+                  'dateTime': moment(month, 'MMM YYYY').day(dayItem.day).toDate(),
+                },
+              },
+            }, function (err, event) {
+              if (err) {
+                console.log('There was an error contacting the Calendar service: ' + err);
+                return;
+              }
+              console.log('Event created: %s', event.data.htmlLink);
+            });
+          })
+        })
+      });
+    });
 
-    // calendar.events.list({
-    //   calendarId: 'ahmedreo4@gmail.com',
-    // }).then(res => {
-    //   const events = res.data.items;
-    //   if (events.length) {
-    //     console.log('Upcoming 10 events:');
-    //   } else {
-    //     console.log('No upcoming events found.');
-    //   }
-    // })
+    fs.writeFileSync('./output.json', jsonString, 'utf-8');
 
     response.send('done')
 
   })
 })
-
-
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
