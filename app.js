@@ -11,18 +11,6 @@ const axios = require("axios");
 const siteUrl = "https://www.hwyoneprop.com/highway-one-vacation-rentals/27-calle-del-pradero";
 const calendarId = '3m4gnh04a9dtb3qs3mdnfne70o@group.calendar.google.com'
 
-// var date = moment('January 2020', 'MMM YYYY').day(8)
-// var event = {
-//   'summary': 'Google I/O 2015',
-//   'description': 'A chance to hear more about Google\'s developer products.',
-//   'start': {
-//     'date': '2020-01-08',
-//   },
-//   'end': {
-//     'date': '2020-01-08',
-//   },
-// };
-
 const availability = [];
 
 app.get('/', (request, response) => {
