@@ -22,13 +22,10 @@ app.get('/', (request, response) => {
       let days = []
 
       $(element).find('td.day').each((index, element) => {
-        if ($(element).hasClass('av-OUT')) {
+        if ($(element).hasClass('av-IN')) {
           days.push({ day: $(element).text(), type: 'checked-out' })
         }
-        else if ($(element).hasClass('av-IN')) {
-          days.push({ day: $(element).text(), type: 'checked-in' })
-        }
-        else if ($(element).hasClass('av-X')) {
+        else if ($(element).hasClass('av-O')) {
           days.push({ day: $(element).text(), type: 'empty' })
         }
 
@@ -71,7 +68,7 @@ app.get('/', (request, response) => {
 
     fs.writeFileSync('./output.json', jsonString, 'utf-8');
 
-    response.send('done')
+    response.send('success')
 
   })
 })
