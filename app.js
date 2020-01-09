@@ -25,8 +25,8 @@ app.get('/', (request, response) => {
         if ($(element).hasClass('av-IN')) {
           days.push({ day: $(element).text(), type: 'checked-out' })
         }
-        else if ($(element).hasClass('av-O')) {
-          days.push({ day: $(element).text(), type: 'empty' })
+        else if ($(element).hasClass('av-OUT')) {
+          days.push({ day: $(element).text(), type: 'checked-in' })
         }
 
       })
