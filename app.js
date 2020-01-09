@@ -9,7 +9,7 @@ const authorize = require('./google-calendar-auth')
 const cheerio = require("cheerio");
 const axios = require("axios");
 const siteUrl = "https://www.hwyoneprop.com/highway-one-vacation-rentals/27-calle-del-pradero";
-const calendarId = '3m4gnh04a9dtb3qs3mdnfne70o@group.calendar.google.com'
+const calendarId = 'hm51o0nkvs5jvgi06b7akk55c4@group.calendar.google.com'
 
 const availability = [];
 
