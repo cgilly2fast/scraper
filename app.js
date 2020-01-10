@@ -9,11 +9,13 @@ const authorize = require('./google-calendar-auth')
 const cheerio = require("cheerio");
 const axios = require("axios");
 const siteUrl = "https://www.hwyoneprop.com/highway-one-vacation-rentals/27-calle-del-pradero";
-const calendarId = 'hm51o0nkvs5jvgi06b7akk55c4@group.calendar.google.com'
+const calendarId = 'a126r0unk7kqegmh0oamolfubs@group.calendar.google.com'
 
-const availability = [];
 
 app.get('/', (request, response) => {
+
+  const availability = [];
+
   axios.get(siteUrl).then((res) => {
     const $ = cheerio.load(res.data)
 
@@ -39,19 +41,32 @@ app.get('/', (request, response) => {
       if (err) return console.log('Error loading client secret file:', err);
       authorize(JSON.parse(content), auth => {
         const calendar = google.calendar({ version: 'v3', auth });
+        // clear all events
+        calendar.events.list({
+          calendarId,
+        }).then((res) => {
+          res.data.items.forEach((item) => {
+            calendar.events.delete({
+              calendarId,
+              eventId: item.id
+            })
+          })
+        })
+        // insert new events
         availability.forEach(i => {
           let month = Object.keys(i)[0]
           i[month].forEach(dayItem => {
+            calendar.cal
             calendar.events.insert({
               auth,
               calendarId,
               resource: {
                 'summary': dayItem.type,
                 'start': {
-                  'dateTime': moment(month, 'MMM YYYY').day(dayItem.day).toDate(),
+                  'dateTime': moment(new Date(month + ' ' + dayItem.day)).format(),
                 },
                 'end': {
-                  'dateTime': moment(month, 'MMM YYYY').day(dayItem.day).toDate(),
+                  'dateTime': moment(new Date(month + ' ' + dayItem.day)).format(),
                 },
               },
             }, function (err, event) {
@@ -68,7 +83,7 @@ app.get('/', (request, response) => {
 
     fs.writeFileSync('./output.json', jsonString, 'utf-8');
 
-    response.send('success')
+    response.send(availability)
 
   })
 })
